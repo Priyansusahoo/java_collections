@@ -47,18 +47,18 @@ public class ArraysWays {
 
         Object[][][] bankai = new Object[3][][];
 
-        bankai[0] = new Object[2][];
-        bankai[1] = new Object[2][];
-        bankai[2] = new Object[2][];
+        bankai[0] = new Object[2][1];
+        bankai[1] = new Object[2][1];
+        bankai[2] = new Object[2][1];
 
-        bankai[0][0] = new Object[1];
-        bankai[0][1] = new Object[1];
-
-        bankai[1][0] = new Object[1];
-        bankai[1][1] = new Object[1];
-
-        bankai[2][0] = new Object[1];
-        bankai[2][1] = new Object[1];
+//        bankai[0][0] = new Object[1];
+//        bankai[0][1] = new Object[1];
+//
+//        bankai[1][0] = new Object[1];
+//        bankai[1][1] = new Object[1];
+//
+//        bankai[2][0] = new Object[1];
+//        bankai[2][1] = new Object[1];
 
         bankai[0][0][0] = new TestNodeObject("Priyansu");
         bankai[0][1][0] = new TestNodeObject("Thanos");
