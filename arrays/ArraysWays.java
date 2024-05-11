@@ -42,7 +42,7 @@ public class ArraysWays {
 
 
         /**
-         * 3D-Arrays
+         * 3D-Arrays of Objects
          */
 
         Object[][][] bankai = new Object[3][][];
