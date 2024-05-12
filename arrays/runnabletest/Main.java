@@ -9,7 +9,8 @@ public class Main {
 
         for (int i = 1;i<=5;i++){
             RunnableThing thing = new RunnableThing(i);
-            thing.start();
+            Thread mythread = new Thread(thing);
+            mythread.start();
         }
     }
 }

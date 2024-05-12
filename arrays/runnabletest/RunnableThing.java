@@ -4,11 +4,11 @@ package runnabletest;
  * @author Priyansu Sahoo
  * @created 12-05-2024 - 01:50 pm
  */
-public class RunnableThing extends Thread {
+public class RunnableThing implements Runnable {
 
-    int threadNumber;
+    private int threadNumber;
 
-    RunnableThing(int threadNumber){
+    public RunnableThing(int threadNumber){
         this.threadNumber = threadNumber;
     }
 
